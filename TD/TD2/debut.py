@@ -13,10 +13,10 @@ canvas = tk.Tk(root, width = CANVAS_WIDTH, height = CANVAS_HEIGHT)
 x0 = 100
 x1 = CANVAS_WIDTH - 100
 y = CANVAS_HEIGHT / 2
-Line = tk.create_line(x0, y, x1, y)
-Oval1 = tk.create_oval(x0 - 50, y + 50, x0 + 50, y - 50)
-Oval2 = tk.create_oval(x1 - 50, y + 50, x1 + 50, y - 50)
-Oval3 = tk.create_oval((x0 + x1) / 2 - 50, y + 50, (x0 + x1) / 2 + 50, y - 50)
+tk.create_line(x0, y, x1, y)
+tk.create_oval(x0 - 50, y + 50, x0 + 50, y - 50)
+tk.create_oval(x1 - 50, y + 50, x1 + 50, y - 50)
+tk.create_oval((x0 + x1) / 2 - 50, y + 50, (x0 + x1) / 2 + 50, y - 50)
     
     # Fin de votre code
 
