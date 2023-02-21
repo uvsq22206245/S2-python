@@ -20,5 +20,5 @@ canvas.create_oval((x0 + x1) / 2 - 50, y + 50, (x0 + x1) / 2 + 50, y - 50)
     
     # Fin de votre code
 
-canvas.pack()
+canvas.grid()
 root.mainloop()
